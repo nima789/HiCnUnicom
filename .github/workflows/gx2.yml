@@ -21,7 +21,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/hzys/HiCnUnicom.git"
+          source_repo: "https://github.com/mixool/HiCnUnicom.git"
           source_branch: "master"
           destination_branch: "gengxin2"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
