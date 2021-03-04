@@ -1,4 +1,4 @@
-name: Actions-gx1
+name: Actions-gx2
 on:
   workflow_dispatch:
   watch:
