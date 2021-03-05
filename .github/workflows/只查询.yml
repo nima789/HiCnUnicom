@@ -25,8 +25,8 @@ jobs:
            
     #设置PARAMETER的值为脚本支持的参数,如 githubaction membercenter 13800008888@112233 18388880000@123456
  
-        - name: 运行号码签到
+        - name: 运行号码查询
           env:
-           PARAMETER: ${{ secrets.INQUIRE }}
+           INQUIRE: ${{ secrets.INQUIRE }}
           run: |
            bash CnUnicom.sh $INQUIRE
