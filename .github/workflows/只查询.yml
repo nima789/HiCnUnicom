@@ -1,11 +1,11 @@
-name: 签到
+name: 只查询
 
 on:
   #push:
     #branches: [ master ]
   workflow_dispatch:
   schedule:
-    - cron: 02 0 * * *
+    - cron: 02 6 * * *
   watch:
     types: started
     
